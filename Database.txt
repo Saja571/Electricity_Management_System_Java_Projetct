@@ -1,0 +1,21 @@
+CREATE DATABASE ebs;
+
+
+CREATE TABLE customer (
+    name VARCHAR(255),
+    meter_no VARCHAR(255) PRIMARY KEY,
+    address VARCHAR(255),
+    city VARCHAR(255),
+    state VARCHAR(255),
+    email VARCHAR(255),
+    phone VARCHAR(255)
+);
+
+CREATE TABLE login (
+    meter_no VARCHAR(255),
+    username VARCHAR(255),
+    name VARCHAR(255),
+    password VARCHAR(255),
+    user VARCHAR(255)
+);
+
